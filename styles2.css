@@ -478,3 +478,20 @@ nav a:hover {
         height: 20px;
     }
 }
+/* Responsive Media Query */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        background-color: #004aad; /* Match navbar color */
+    }
+
+    .nav-link {
+        color: white; /* Ensure visibility in mobile view */
+        margin: 10px 0;
+    }
+
+    .nav-link:hover {
+        background-color: #007aff; /* Light blue hover effect */
+    }
+}
