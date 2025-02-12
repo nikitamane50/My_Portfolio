@@ -15,12 +15,12 @@
         <div class="container header-container">
             <!-- Logo Section -->
             <div class="logo">
-                <img src="images/profile.png" alt="Nikita Mane Logo" class="logo-img">
+                <img src="images/logo.jpeg" alt="Nikita Mane Logo" class="logo-img">
                 <h1>Nikita Mane</h1>
             </div>
             <nav class="nav">
                 <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#about" class="nav-link active">About</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
@@ -49,7 +49,7 @@
             <div class="skills-grid">
                 <div class="skill-card" data-percentage="90%">Java</div>
                 <div class="skill-card" data-percentage="85%">Spring Boot</div>
-                <div class="skill-card" data-percentage="75%">REST APIs</div>
+                <div class="skill-card" data-percentage="75%">Bootstrap</div>
                 <div class="skill-card" data-percentage="80%">Hibernate</div>
                 <div class="skill-card" data-percentage="70%">MySQL</div>
                 <div class="skill-card" data-percentage="65%">C++</div>
@@ -58,30 +58,58 @@
     </section>
     
 
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Project 1: Medox Management System</h3>
-                    <p>An enterprise-level developed using Java, HTML,CSS and MySQL.</p>
+    <section id="projects" class="section projects" style="align-items: center;">
+        <h2>Projects Gallery</h2>
+        <div class="gallery">
+           
+                    <div class="project-card">
+                        <div class="project-header"></div>
+                    <h2 style="color: white;">Project 1: Medox Management System</h2>
+                    <p style="color: white;">An enterprise-level developed using Java, HTML,CSS and MySQL.</p>
                       <!-- Video Clip -->
                      <video controls class="project-video">
-                    <source src="videos/Project1.mp4" type="video/mp4">
+                    <source src="videos/project1.mp4" type="video/mp4">
                  </video>
                 </div>
-                <div class="project-card">
-                    <h3>Project 2: Cooking Collection</h3>
-                    <p>A recipe website displaying a list of recipes with collapsible recipe instructions.</p>
-                    <!-- Video Clip -->
-                    <video controls class="project-video">
-                        <source src="videos/project2.mp4" type="video/mp4">
-                     </video>
-                </div>
+
+                <div class="project-card" >
+                    <div class="project-header" ></div>
+                <h2 style="color: white;">Project 2: Receipe Hub</h2>
+                <p style="color: white;">An enterprise-level developed using Java, HTML,CSS and MySQL.</p>
+                  <!-- Video Clip -->
+                 <video controls class="project-video">
+                <source src="videos/project2.mp4" type="video/mp4">
+             </video>
+            </div>
+    <div class="gallery">
+        <div class="project-card">
+            <div class="project-header">
+                <h2>Spotify Clone</h2>
+            </div>
+            <div class="project-content">
+                <p>A sleek and static Spotify Clone project showcasing modern design principles.</p>
+                <button class="view-btn">
+                    <a href="https://nikitamane50.github.io/SpotifyClone/" target="_blank" style="text-decoration: none; color: white;">View Project</a>
+                </button>
+                
             </div>
         </div>
-    </section>
 
+        <div class="project-card">
+
+            <div class="project-header">
+                <h2>RainDrop Animation</h2>
+            </div>
+            <div class="project-content">
+                <p> Rain Drop Animation with HTML,CSS and Javascript</p>
+                <button class="view-btn">
+                    <a href="https://nikitamane50.github.io/RainDrop/" target="_blank" style="text-decoration: none; color: white;">View Project</a>
+                </button>
+                
+            </div>
+        </div>
+    </div>
+</div>
     <section id="contact" class="section contact">
         <div class="container">
             <h2>Contact Me</h2>
